@@ -1,0 +1,23 @@
+.banner {
+  background: url('images/cinema.webp') center/cover;
+}
+
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.button.is-link {
+  background-color: #485fc7;
+  border-radius: 25px;
+}
+
+textarea,
+input {
+  border-radius: 8px !important;
+}
